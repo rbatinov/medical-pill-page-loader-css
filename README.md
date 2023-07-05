@@ -1,4 +1,4 @@
-# medical-pill-page-loader-css
+# Medical Pill - Page Loader with CSS
 This is a simple medical pill page loader. 
 
 Check working demo of the project and how to use it here: 
