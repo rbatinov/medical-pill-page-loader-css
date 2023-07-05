@@ -1,0 +1,240 @@
+<!-- GitHub Corner -->
+
+<!-- The MIT License (MIT)
+
+Copyright (c) 2016 Tim Holman
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE. -->
+
+<!-- End of GitHub Corner -->
+
+<!DOCTYPE html>
+<html lang="bg">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#5983e8" />
+
+    <title>
+        Medical Pill - Page Loader CSS | M. Eng. Radoslav Batinov
+    </title>
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="Images/favicon/site.webmanifest">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong&display=swap" rel="stylesheet">
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-HSDWEQGCVS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HSDWEQGCVS');
+    </script> -->
+
+</head>
+
+<link rel="stylesheet" href="medical-pill-loader.css">
+<link rel="stylesheet" href="page-demo-style.css">
+
+<body>
+
+    <a href="https://github.com/rbatinov/" class="github-corner"
+        aria-label="View source on GitHub" target="_blank">
+        <svg width="80" height="80" viewBox="0 0 250 250"
+            style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
+            <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+            <path
+                d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+                fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
+            <path
+                d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+                fill="currentColor" class="octo-body"></path>
+    </svg></a>
+
+
+    <div id="loadingDiv">
+        <div class="split-pill">
+              <span class="left"></span>
+              <span class="right"></span>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Medical Pill - Page Loader with CSS</h1>
+    </div>
+
+    <div class="container">
+        <h2>About</h2>
+        <hr>
+
+        <p>This is a demo page where you can check how does the "Medical Pill Page Loader" work.</p>
+        <p>The timer of the Medical Pill Page Loader is set to <strong>3 seconds for demonstration purposes</strong>.</p>
+        <p>You can show your loader <strong>with delay</strong>, or when completing some <strong>AJAX request, page load</strong> or other. </p>
+        <p><strong>Reload the page to see the loader again</strong>.</p>
+
+        <h2>How to use</h2>
+        <hr>
+
+        <ol>
+            <li>Open the <strong>medical-pill-loader.css</strong> file.</li>
+            <li><strong>Copy</strong> the content or the file and <strong>paste into your project directory</strong>.</li>
+            <li><strong>Link the document</strong> by this code (where href="your path to the file in your project"):
+                <input type="text" value="&lt;link rel=&quot;stylesheet&quot; href=&quot;medical-pill-loader.css&quot;&gt;" style="width:100%;"> </li>
+                <p>- if you have project folder named <strong>"Loaders"</strong> and your filename of css styles is <strong>medical-pill-loader.css</strong>, then you should have <strong>href="Loaders/medical-pill-loader.css"</strong></p>
+                <p>- if your <strong>medical-pill-loader.css</strong> file is stored in your desired html file folder (the file where loader will be shown) you can simply copy and paste the content from the input above: <strong>href="medical-pill-loader.css"</strong> </p>
+            <li>In your <strong>HTML</strong> file you should have a <strong>div</strong> element like this:
+                <textarea cols="5" rows="10">
+                    <div id="loadingDiv">
+                        <div class="split-pill">
+                            <span class="left"></span>
+                            <span class="right"></span>
+                        </div>
+                    </div>
+                </textarea>
+                <p>Where loadingDiv is the <strong>"container"</strong> class which will take care of show/hide of the pill loader and the <strong>"split-pill"</strong> class is the css styles for the pill looking loader.</p>
+            </li>
+            <li>Finally you need some <strong>javaScript</strong> to <strong>show/hide</strong> the loader.
+                <textarea cols="5" rows="5">
+                    function showLoader() {
+                        var element = document.getElementById("loadingDiv");
+                        element.classList.toggle("activeLoader");
+                    }
+                </textarea>
+                <p>This function toggles between the <strong>"activeLoader"</strong> - in other words it adds it or removes it when the function is executed. This class either shows or hides the medical pill loader.</p>
+                <p>For <strong>example</strong> if we have some <strong>AJAX</strong> request to the server - call the <strong>showLoader()</strong> function <strong>at the beginning</strong> of your request and when finished the request - <strong>call the function showLoader() again to hide the loader</strong>. </p>
+
+                <p>- For <strong>example</strong> - loadPage() loads some page info with AJAX query, then do this:</p>
+                <textarea cols="5" rows="15">
+                    function loadPage() {
+                        showLoader(); // call at starting point to show the medical pill loader
+                      
+                        var xmlhttp = new XMLHttpRequest();                     
+                      
+                        xmlhttp.onreadystatechange = function() {
+                          if (this.readyState == 4 && this.status == 200) {
+                            // do some stuff with your result
+
+                            showLoader(); // call at the end of the request to hide the medical pill loader
+                          }
+                        };
+                      
+                        xmlhttp.open("GET", "your-url", true);
+                        xmlhttp.send();
+                      }
+                </textarea>
+            </li>
+            <li>Include the <strong>MIT license</strong> somewhere in your page: 
+                <p>it is free for use even in commercial projects but it is cool to give credits to the author :&#41; </p>
+                <textarea cols="5" rows="10">
+                    MIT License
+
+                    Copyright (c) 2023 M. Eng. R. Batinov | RB Projects
+
+                    Permission is hereby granted, free of charge, to any person obtaining a copy
+                    of this software and associated documentation files (the "Software"), to deal
+                    in the Software without restriction, including without limitation the rights
+                    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                    copies of the Software, and to permit persons to whom the Software is
+                    furnished to do so, subject to the following conditions:
+
+                    The above copyright notice and this permission notice shall be included in all
+                    copies or substantial portions of the Software.
+
+                    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                    SOFTWARE.
+                </textarea>
+            </li>
+
+            <li><strong>You are ready to use it! Enjoy!</strong></li>
+
+        </ol>
+
+        <h2>Images</h2>
+        <hr>
+        <img src="Images/loader.png" style="width:80%;">
+
+        <h2>Video</h2>
+        <hr>
+
+        <video width="1000" controls>
+            <source src="Images/vid.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+        </video>
+
+        <h2>License</h2>
+        <hr>
+
+        <p>The project is Licensed - it is free for personal and commercial use:</p>
+        <textarea cols="5" rows="10">
+            MIT License
+
+            Copyright (c) 2023 M. Eng. R. Batinov | RB Projects
+
+            Permission is hereby granted, free of charge, to any person obtaining a copy
+            of this software and associated documentation files (the "Software"), to deal
+            in the Software without restriction, including without limitation the rights
+            to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+            copies of the Software, and to permit persons to whom the Software is
+            furnished to do so, subject to the following conditions:
+
+            The above copyright notice and this permission notice shall be included in all
+            copies or substantial portions of the Software.
+
+            THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+            IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+            FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+            AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+            LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+            OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+            SOFTWARE.
+        </textarea>
+    </div>
+
+
+   
+    <div id="footer">
+        <footer class="border-top p-t-5">
+            Designed && Developed by <a href="https://radoslav-batinov.bss.design/index.html" target="_blank"
+                title="Click to open portfolio.">M. Eng. R. Batinov</a>
+        </footer>
+    </div>
+
+    <script>
+        var delayInMilliseconds = 3000; //1 second
+
+        setTimeout(function() {
+            showLoader();
+        }, delayInMilliseconds);
+        
+
+        function showLoader() {
+            var element = document.getElementById("loadingDiv");
+            element.classList.toggle("activeLoader");
+        }    
+
+        
+
+        showLoader();
+    </script>
+
+</body>
+
+</html>
