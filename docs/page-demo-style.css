@@ -55,3 +55,7 @@ textarea{
     margin-top:2rem;
     margin-bottom:2rem;
 }
+
+iframe{
+    width: 100%;
+}
